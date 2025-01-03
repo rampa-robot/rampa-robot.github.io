@@ -1,6 +1,6 @@
 # RAMPA: Robotic Augmented Reality for Machine Programming and Automation
 
-This is the repository that contains the source code for the [RAMPA website](https://xr-objects.github.io).
+This is the repository that contains the source code for the [RAMPA website](https://rampa-robot.github.io/).
 
 If you find RAMPA useful for your work, please cite:
 ```
