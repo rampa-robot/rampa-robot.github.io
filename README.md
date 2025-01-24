@@ -4,18 +4,10 @@ This is the repository that contains the source code for the [RAMPA website](htt
 
 If you find RAMPA useful for your work, please cite:
 ```
-@inproceedings{RAMPA_2024,
-	address = {New York, NY, USA},
-	title = {RAMPA: Robotic Augmented Reality for Machine Programming and Automation},
-	isbn = {979-8-4007-0628-8/24/10},
-	url = {https://doi.org/10.1145/3654777.3676379},
-	doi = {10.1145/3654777.3676379},
-	language = {en},
-	booktitle = {Proceedings of the 37th {Annual} {ACM} {Symposium} on {User} {Interface} {Software} and {Technology}},
-	publisher = {Association for Computing Machinery},
-	author = {Dogan, Mustafa Doga and Gonzalez, Eric J and Ahuja, Karan and Du, Ruofei and Colaco, Andrea and Lee, Johnny and Gonzalez-Franco, Mar and Kim, David},
-	month = oct,
-	year = {2024},
+@misc{dogangun2024rampa,
+  title={RAMPA: Robotic Augmented Reality for Machine Programming and Automation},
+  author={Dogangun, Fatih and Bahar, Serdar and Yildirim, Yigit and Temir, Bora Toprak and Ugur, Emre and Dogan, Mustafa Doga},
+  howpublished={arXiv:2410.13412, 2024}
 }
 ```
 
