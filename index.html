@@ -6,7 +6,7 @@
         content="End-to-end Robotic Programming with Augmented Reality ">
   <meta name="keywords" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>RAMPA: Robotic Augmented Reality for Machine Programming and Automation</title>
+  <title>RAMPA: Robotic Augmented Reality for Machine Programming by Demonstration</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -47,7 +47,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">RAMPA: Robotic Augmented Reality for Machine Programming and Automation</h1>
+          <h1 class="title is-1 publication-title">RAMPA: Robotic Augmented Reality for Machine Programming by Demonstration</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a target="_blank">Fatih Doğangün</a><sup>1</sup>,</span>
@@ -110,30 +110,28 @@
   <div class="column is-four-fifths">
     <h2 class="title is-3">Abstract</h2>
     <div class="content has-text-justified">
-      <p>
-	Abstract—As robotics continue to enter various sectors beyond
-	traditional industrial applications, the need for intuitive robot
-	training and interaction systems becomes increasingly more
-	important. This paper introduces Robotic Augmented Reality
-	for Machine Programming (<span class="dnerf">RAMPA</span>), a system that utilizes the
-	capabilities of state-of-the-art and commercially available AR
-	headsets, e.g., <span class="italic">Meta Quest</span> 3, to facilitate the application of Pro-
-	gramming from Demonstration (<span class="italic">PbD</span>) approaches on industrial
-	robotic arms, such as Universal Robots UR10. Our approach
-	enables in-situ data recording, visualization, and fine-tuning of
-	skill demonstrations directly within the user’s physical environ-
-	ment. <span class="dnerf">RAMPA</span> addresses critical challenges of <span class="italic">PbD</span>, such as safety
-	concerns, programming barriers, and the inefficiency of collecting
-	demonstrations on the actual hardware. The performance of our
-	system is evaluated against the traditional method of kinesthetic
-	control in teaching three different robotic manipulation tasks and
-	analyzed with quantitative metrics, measuring task performance
-	and completion time, trajectory smoothness, system usability,
-	user experience, and task load using standardized surveys. Our
-	findings indicate a substantial advancement in how robotic tasks
-	are taught and refined, promising improvements in operational
-	safety, efficiency, and user engagement in robotic programming.
-      </p>
+      <p> Abstract—As robotics continue to enter various sectors beyond
+      traditional industrial applications, the need for intuitive robot
+      training and interaction systems becomes increasingly more
+      important. This paper introduces Robotic Augmented Reality
+      for Machine Programming (<span class="dnerf">Rampa</span>), a system that utilizes the
+      capabilities of state-of-the-art and commercially available AR
+      headsets, e.g., <span class="italic">Meta Quest</span> 3, to facilitate the application of Programming from Demonstration 
+      (PbD) approaches on industrial
+      robotic arms, such as <span class="italic">Universal Robots UR10</span>. Our approach
+      enables in-situ data recording, visualization, and fine-tuning of
+      skill demonstrations directly within the user’s physical environment. <span class="dnerf">Rampa</span> 
+      addresses critical challenges of PbD, such as safety
+      concerns, programming barriers, and the inefficiency of collecting
+      demonstrations on the actual hardware. The performance of our
+      system is evaluated against the traditional method of kinesthetic
+      control in teaching three different robotic manipulation tasks and
+      analyzed with quantitative metrics, measuring task performance
+      and completion time, trajectory smoothness, system usability,
+      user experience, and task load using standardized surveys. Our
+      findings indicate a substantial advancement in how robotic tasks
+      are taught and refined, promising improvements in operational
+      safety, efficiency, and user engagement in robotic programming. </p>
      
     </div>
   </div>
@@ -157,72 +155,49 @@
 </section>
 
 
-<!--
+
 <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
       <div class="columns is-centered">
         <div class="column is-8">
           <div class="content">
-            <h2 class="title is-3">Applications</h2>
-            <img src="https://github.com/google/xr-objects/raw/main/docs/FigureXRObjects.jpg"
+            <h2 class="title is-3">Key Features of <span class="dnerf">Rampa</span> </h2>
+            <img src="./static/images/main_figure.png"
         class="interpolation-image" width="100%"/>
-        </div>
-            <p> <img  style="float: left;padding-right: 30px;" src="./static/images/applications.png"
-              width="225px"/>Through AOI, we envision XR-Objects to be useful across a variety of real-world applications. 
-              By enabling in situ digital interactions with non-instrumented analog objects, we can expand their utility 
-              (e.g., enabling a pot to double as a cooking timer), better synthesize their relevant information 
-              (e.g., comparing nutritional value), and overall enable richer interactivity and flexibility in everyday interactions. 
-                Here we present five example application scenarios from a broad application space we envision that highlight the value 
-                of XR-Objects.</p><br/>
           </div>
+         <h3 class="title is-4">Data Recording</h3>
+            <p> Users use AR to demonstrate skills, capturing the data directly in the user's environment, using hand pinch, as shown in the figure above.
+              Compared to traditional methods, such as the kinesthetic control, <span class="dnerf">RAMPA</span> simplifies the collection of 
+              demonstration trajectories, an integral component of PbD procedures, offering a more efficient experience for 
+              robotic programmers.
+            </p>
+        <h3 class="title is-4">Data Playback and Adjustment</h3>
+          <p> <img  style="float: left;padding-right: 30px;" src="./static/images/traj_playback.png" width="450px"/>
+            <br/><br/>
+            The system allows users to visualize and modify the movements of a virtual robot before these movements are executed 
+            on the actual robotic arm. This step ensures that potential errors can be corrected in a safe, virtual space. 
+            Moreover, the ability to adjust any portion of demonstration trajectories increases the operator's overall performance.
+          </p><br/><br/><br/><br/>
+
+        <h3 class="title is-4">ML Training and Preview</h3>
+          <p> <img  style="float: left;padding-right: 30px;" src="./static/images/ml_overview.png" width="450px"/>
+            <br/><br/><br/><br/>
+            Utilizing the collected data, popular PbD models, such as Probabilistic Movement Primitives (ProMPs), can be trained and validated
+            within the AR environment. Users can observe the generated trajectories in real-time, ensuring the robot's behavior aligns with desired outcomes.
+          </p><br/>
+         </div>
         </div>
       </div>  
     </div>
-        
-      <br/>
-        <div id="results-carousel" class="carousel results-carousel" style="border-width:0px;">
-         
-          <div class="item item-steve" style="border-width:0px;">
-            <div class="columns is-centered" style="border-width:0px;">
-            <img poster="" id="steve"  src="./static/images/discover.png"
-            width="70%"/>
-          </div>
-          </div>
-          
-          <div class="item item-shiba" style="border-width:0px;">
-            <div class="columns is-centered" style="border-width:0px;">
-              
-            <img poster="" id="shiba" src="./static/images/productivity.png"
-            width="80%">
-          </div>
-          </div>
-          <div class="item item-chair-tp" style="border-width:0px;">
-            <div class="item" style="border-width:0px;">
-              <img poster="" id="chair-tp"  src="./static/images/learning.png"
-              width="90%">
-            </div>
-          </div>
-          <div class="item item-fullbody" style="border-width:0px;">
-            <img poster="" id="fullbody" src="./static/images/IOT.png"
-            width="95%">
-          </div>      
-        </div>
-        <br/>
-        <h2 class="subtitle has-text-centered">
-          <span class="dnerf">XR-Objects</span> makes analog objects interactable as if they were digital.
-        </h2>
-      
   </div>
- 
 </div>
 </section>
 
-
+<!--
 <section class="section">
   
   <div class="container is-max-desktop">
-    <!-- Concurrent Work.  -->
     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Implementation</h2>
@@ -247,8 +222,6 @@
         </div>
       </div>
     </div>
-    <!--/ Concurrent Work. -->
-
   </div>
 </section>
 	
@@ -257,16 +230,12 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@misc{dogangun2024ramparoboticaugmentedreality,
-      title={RAMPA: Robotic Augmented Reality for Machine Programming and Automation}, 
-      author={Fatih Dogangun and Serdar Bahar and Yigit Yildirim and Bora Toprak Temir and Emre Ugur and Mustafa Doga Dogan},
-      year={2024},
-      eprint={2410.13412},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2410.13412}, 
+    <pre><code>@misc{dogangun2024rampa,
+      title={RAMPA: Robotic Augmented Reality for Machine Programming and Automation},
+      author={Dogangun, Fatih and Bahar, Serdar and Yildirim, Yigit and Temir, Bora Toprak and Ugur, Emre and Dogan, Mustafa Doga},
+      howpublished={arXiv:2410.13412, 2024}
 }
-}</code></pre>
+</code></pre>
   </div>
 </section>
 
