@@ -4,11 +4,16 @@ This is the repository that contains the source code for the [RAMPA website](htt
 
 If you find RAMPA useful for your work, please cite:
 ```
-@misc{dogangun2024rampa,
-  title={RAMPA: Robotic Augmented Reality for Machine Programming and Automation},
+@ARTICLE{dogangun2024rampa,
   author={Dogangun, Fatih and Bahar, Serdar and Yildirim, Yigit and Temir, Bora Toprak and Ugur, Emre and Dogan, Mustafa Doga},
-  howpublished={arXiv:2410.13412, 2024}
-}
+  journal={IEEE Robotics and Automation Letters}, 
+  title={RAMPA: Robotic Augmented Reality for Machine Programming by DemonstrAtion}, 
+  year={2025},
+  volume={10},
+  number={4},
+  pages={3795-3802},
+  keywords={Robots;Trajectory;Training;Hands;Robot programming;Data models;Real-time systems;Augmented reality;User experience;Human-robot interaction;Virtual reality and interfaces;learning from demonstration;augmented reality (AR);extended reality (XR)},
+  doi={10.1109/LRA.2025.3546109}}
 ```
 
 # Website License
